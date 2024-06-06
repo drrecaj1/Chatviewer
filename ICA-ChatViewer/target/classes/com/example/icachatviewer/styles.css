@@ -1,0 +1,106 @@
+.root {
+    -fx-font-family: "Open Sans";
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: #FCD7F6;
+    -fx-background-image: url("fundo-do-mapa-topografico_23-2148599102.jpg");
+    -fx-background-size: cover;
+}
+
+.description-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-text-align: center;
+    -fx-padding: 10;
+    -fx-background-color: inherit;
+    -fx-border-color: #FCD7F6;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button {
+    -fx-background-color: inherit;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #A3DAEB;
+}
+
+.label {
+    -fx-font-size: 100px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-text-align:center;
+
+}
+
+.instructions-box {
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* White background with 80% opacity */
+    -fx-padding: 10;
+    -fx-font-size: 3000px;
+    -fx-border-color: #FCD7F6;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+
+.text-flow {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-overflow-y: auto;
+}
+
+.text {
+    -fx-font-size: 14px;
+    -fx-fill: #333333;
+}
+
+.timestamp {
+    -fx-fill: #666666;
+    -fx-font-weight: bold;
+}
+
+.nickname-adam {
+    -fx-fill: #1a73e8;
+    -fx-font-weight: bold;
+}
+
+.nickname-bob {
+    -fx-fill: #e91e63;
+    -fx-font-weight: bold;
+}
+
+.nickname-other {
+    -fx-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.message {
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+
+.scroll-pane {
+    -fx-fit-to-width: true;
+}
+
+.text-flow .text {
+    -fx-line-spacing: 0;
+}
+
+
+.file-path-label {
+  -fx-background-color:rgba(245, 229, 169, 0.5);
+  -fx-border-color: rgba(245, 229, 169, 1);
+  -fx-border-radius: 10;
+
+}
